@@ -1,0 +1,88 @@
+body #site-wrap {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to left, $primary 50%, $black 50%);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: $white;
+	overflow:auto;
+}
+
+#headline {
+	position: relative;
+	a {
+	}
+	.ubly-logo {
+		width: relative;
+		.uber-font {
+			background-color: $black;
+			padding: 1rem 0rem 1rem 1rem;
+		}
+
+		.lyft-font {
+			background-color: $primary;
+			padding: $global-padding $global-padding $global-padding 0rem;
+		}
+	}
+
+	background-color: $secondary;
+	padding: $global-padding;
+	padding-top: $global-padding + 0.75rem;
+	padding-bottom: $global-padding + 0.5rem;
+	width: 100%;
+
+	#headline-contact a {
+		font-size: 2.3rem;
+		color: $white;
+		background-color: $primary;
+		padding: $global-padding - .5rem;
+		vis
+
+		&:hover {
+			background-color: $black;
+		}
+	}
+}
+main {
+	h2 {
+		//font-weight: bold;
+		font-size: 3rem;
+	}
+	.button {
+		background-color: $secondary;
+	}
+	.main-cell {
+		text-align: center;
+		.content{
+			padding: $global-padding + 1rem;
+			.bonus-price {
+				font-size: 5rem;
+				font-weight: bold;
+				margin-bottom: $global-padding - 2.5rem;
+				padding-bottom: $global-padding - 2.5rem;
+			}
+			.bonus-label {
+				padding-bottom: $global-padding + 0.5rem;
+			}
+			.invite-code {
+				font-weight: bold;
+				font-size: 1.25rem;
+			}
+		}
+	}
+	padding-bottom: $global-padding + 10rem;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	padding: $global-padding;
+	margin: 0rem;
+	background-color: $secondary;
+	#copyright {
+		text-align: center;
+	}
+}
