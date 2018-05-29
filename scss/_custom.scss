@@ -74,6 +74,9 @@ main {
 		}
 	}
 	padding-bottom: $global-padding + 10rem;
+	@include breakpoint(small only) {
+		padding-bottom: $global-padding;
+	}
 }
 footer {
 	position: fixed;
@@ -84,5 +87,9 @@ footer {
 	background-color: $secondary;
 	#copyright {
 		text-align: center;
+	}
+	@include breakpoint(small only) {
+		position: relative;
+		bottom: 0px;
 	}
 }
